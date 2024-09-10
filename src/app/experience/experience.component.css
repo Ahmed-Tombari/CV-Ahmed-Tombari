@@ -64,12 +64,12 @@
 
 .small-box {
   width: 99px; /* Adjust the width as needed */
-  height: 587px; /* Adjust the height as needed */
+  height: 615px; /* Adjust the height as needed */
 }
 
 .large-box {
   flex: 1; /* Takes the remaining space in the container */
-  height: 587px; /* Adjust the height as needed */
+  height: 615px; /* Adjust the height as needed */
 }
 
 .box-text {
@@ -99,21 +99,21 @@
   font-size: 15px; /* Adjust font size as needed */
   font-weight: bold;
   text-align: left; /* Align text to the left */
-  margin-top: 21px; /* Space between date and next project */
+  margin-top: -2px; /* Space between date and next project */
 }
 
 .box-text-3 {
   font-size: 15px; /* Adjust font size as needed */
   font-weight: bold;
   text-align: left; /* Align text to the left */
-  margin-top: 41px; /* Space between date and next project */
+  margin-top: 35px; /* Space between date and next project */
 }
 
 .box-text-4 {
   font-size: 15px; /* Adjust font size as needed */
   font-weight: bold;
   text-align: left; /* Align text to the left */
-  margin-top: 21px; /* Space between date and next project */
+  margin-top: 23px; /* Space between date and next project */
 }
 
 .box-text-5 {
@@ -132,5 +132,10 @@
 }
 
 .project {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+.simple-text {
+  font-size: 95%;
+  font-weight: bold;
 }

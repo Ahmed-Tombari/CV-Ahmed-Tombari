@@ -12,5 +12,5 @@ app-navbar {
   /* margin-top: 180px;*/ /* Offset by the navbar height */
   padding: 20px;
   flex: 1;
-  background-color: #f0f0f0; /* Light grey background */
+  /* background-color: #f0f0f0; */
 }
