@@ -1,0 +1,29 @@
+/* Footer styling */
+
+.subFT {
+  height: 100px;
+  color: #bbb;
+}
+
+.footer-button {
+  background-color: #555;
+  color: #bbb;
+  font-size: 18px;
+  width: auto;
+}
+
+.subFT button mat-icon {
+  font-size: 30px; /* Adjust icon size */
+  color: #fff; /* Change icon color to white */
+}
+
+.ft-legal {
+  height: 100px;
+  background-color: #000000;
+  color: #fcf2f2;
+}
+
+.divider {
+  background-color: gray;
+  margin: 20px 0;
+}

@@ -1,0 +1,46 @@
+h1 {
+  font-size: 24px;
+  margin: 0;
+  position: relative;
+}
+
+.underline {
+  width: 50%;
+  height: 4px;
+  background-color: #fff;
+  margin: 10px 0;
+}
+
+/* h4 {
+  font-size: 16px;
+  color: #efefef;
+} */
+
+h4 {
+  font-size: 16px;
+  /* color: #ccc; */
+  color: white;
+  font-weight: 500;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between each info item */
+}
+
+.mat-icon {
+  margin-right: 10px;
+  color: white;
+  font-weight: 500;
+  width: 29px;
+}
+
+.box-text {
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #ccc; /* Ensure text is white */
+  margin: 0; /* Remove default margins from <h4> */
+  /* color: #ccc; */
+  color: white;
+  font-weight: 500;
+}

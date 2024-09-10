@@ -1,0 +1,136 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh; /* Full height of the viewport */
+}
+
+.centered-box {
+  background-color: black;
+  color: white;
+  width: 100%; /* Adjust the width as needed */
+  padding: 14px; /* Adjust the padding as needed */
+  text-align: center;
+  border-radius: 0px; /* Optional: rounded corners */
+}
+
+/* .box-text {
+  font-size: 24px;
+  font-weight: bold;
+} */
+
+.navbar-title {
+  font-size: 25px; /* Adjust as needed */
+  font-weight: bold;
+  color: rgb(229, 225, 225);
+}
+
+.sidebar-content {
+  padding-top: 20px;
+}
+
+.underline {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  /*align-items: flex-start;*/ /* Align items to the top */
+  gap: 10px; /*Space between the small and large boxes */
+}
+
+.small-box {
+  border: 1px solid black; /* Black border for empty boxes */
+  color: black; /* Black text color */
+  height: auto;
+  display: flex;
+  /*display: flex;*/
+  align-items: flex-start; /* Align text to the top */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 8px; /* Optional: rounded corners */
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.large-box {
+  border: 1px solid black; /* Black border for empty boxes */
+  color: black; /* Black text color */
+  /*display: flex;*/
+  align-items: flex-start; /* Align text to the top */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.small-box {
+  width: 99px; /* Adjust the width as needed */
+  height: 587px; /* Adjust the height as needed */
+}
+
+.large-box {
+  flex: 1; /* Takes the remaining space in the container */
+  height: 587px; /* Adjust the height as needed */
+}
+
+.box-text {
+  font-size: 17px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+}
+
+.text-1 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: none;
+  text-align: left; /* Align text to the left */
+}
+
+.strong-text {
+  padding-top: 50px;
+}
+
+.box-text-1 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+  margin-top: 23px; /* Space between date and next project */
+}
+
+.box-text-2 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+  margin-top: 21px; /* Space between date and next project */
+}
+
+.box-text-3 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+  margin-top: 41px; /* Space between date and next project */
+}
+
+.box-text-4 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+  margin-top: 21px; /* Space between date and next project */
+}
+
+.box-text-5 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+  margin-top: 100px; /* Space between date and next project */
+}
+
+.box-text-6 {
+  font-size: 15px; /* Adjust font size as needed */
+  font-weight: bold;
+  text-align: left; /* Align text to the left */
+  margin-top: 22px; /* Space between date and next project */
+  margin-bottom: 31px;
+}
+
+.project {
+  margin-bottom: 20px;
+}

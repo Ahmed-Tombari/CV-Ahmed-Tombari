@@ -1,0 +1,30 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+app-sidebar {
+  width: 610px;
+  background-color: #333; /* Dark background for sidebar */
+  color: #fff;
+  /*padding-top: 60px; /* To align with the navbar */
+  /*position: fixed;*/
+  top: 100px;
+  bottom: 0;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  color: grey;
+}
+.h4 {
+  color: grey;
+}
